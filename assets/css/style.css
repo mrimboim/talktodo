@@ -1,0 +1,102 @@
+ul.list-group {
+  min-height: 130px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica", sans-serif;
+}
+
+.color-gray {
+  background-color: #080D19;
+}
+
+.date-box {
+  cursor: pointer;
+}
+
+.date-box:hover {
+  background-color: white;
+  border: 2px #080D19 solid;
+  color: #080D19;
+}
+
+.drag-image {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 11px;
+  right: 40px;
+}
+
+.dropover {
+  background-color: lightgray;
+}
+
+.btn-add, .btn-save {
+  background-color: #2BFF88;
+  height: 40px;
+  background-image: linear-gradient(180deg,rgb(111, 255, 111), rgb(188, 255, 208),  rgb(111, 255, 111));
+  transition: all .5s ease-out;
+  background-size: 100%;
+  background-position: 0;
+  margin: 5px;
+}
+.btn-voice, .btn-mic {
+  background-color: rgb(155, 93, 226);
+  height: 40px;
+  background-image: linear-gradient(180deg, rgb(161, 113, 215), rgb(223, 135, 237) ,rgb(168, 126, 215));
+  transition: all .5s ease-out;
+  background-size: 100%;
+  background-position: 0;
+  margin: 8px 5px 5px 5px;
+}
+.btn-close, .btn-delete {
+  background-color: #EA0028;
+  height: 40px;
+  background-image: linear-gradient(180deg, #EA0028, #e8909e, #EA0028);
+  transition: all .5s ease-out;
+  background-size: 100%;
+  background-position: 0 -10px;
+  margin: 5px;
+}
+
+.btn-add:hover,
+.btn-save:hover,
+.btn-close:hover,
+.btn-delete:hover,
+.btn-voice:hover,
+.btn-mic:hover {
+  background-position: 1px -50px;
+}
+
+.list-group-item:hover {
+  border: #080D19 1px solid;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.list-group-item p:hover {
+  cursor: pointer;
+  border: #080D19 2px solid;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.trash-can {
+  color: #EA0028;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+}
+

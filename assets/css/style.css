@@ -76,6 +76,7 @@ h6 {
 .btn-voice:hover,
 .btn-mic:hover {
   background-position: 1px -50px;
+  cursor: pointer;
 }
 
 .list-group-item:hover {
@@ -89,6 +90,17 @@ h6 {
   border: #080D19 2px solid;
   border-radius: 20px;
   padding: 5px;
+}
+
+.question {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.question:hover {
+  cursor: pointer;
 }
 
 .trash-can {
